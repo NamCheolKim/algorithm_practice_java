@@ -1,4 +1,4 @@
-// 프로그래머스 약수의 개수와 덧셈
+// 프로그래머스 부족한 금액 계산하기
 class Solution02 {
     public long solution(int price, int money, int count) {
         long answer = 0;
