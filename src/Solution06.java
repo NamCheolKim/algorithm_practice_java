@@ -19,10 +19,10 @@ class Solution06 {
     }
 
     public static void main(String[] args) {
-        Solution06 s_budget = new Solution06();
+        Solution06 solution06 = new Solution06();
         int[] need_budget = {1,3,2,5,4};
         int budget = 9;
 
-        System.out.println(s_budget.solution(need_budget, budget));
+        System.out.println(solution06.solution(need_budget, budget));
     }
 }
