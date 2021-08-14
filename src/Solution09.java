@@ -7,11 +7,11 @@ class Solution09 {
         int matchNum_cnt = 0; // 일치하는 번호 갯수.
         int unknownNum_cnt = 0; // 알아볼 수 없는 번호(0) 갯수
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < lottos.length; i++) {
             if(lottos[i] == 0){ // 알아볼 수 없는 번호(0)가 있다면
                 unknownNum_cnt++;
             }
-            for (int j = 0; j < 6; j++) {
+            for (int j = 0; j < win_nums.length; j++) {
                 if (lottos[i] == win_nums[j]){ // 일치하는 번호가 있다면
                     matchNum_cnt++;
                 }
