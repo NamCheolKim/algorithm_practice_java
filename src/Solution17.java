@@ -35,7 +35,7 @@ class Solution17 {
 
     public static void main(String[] args) {
         Solution17 solution17 = new Solution17();
-        int arr[] = {4,3,2,1};
+        int[] arr = {4,3,2,1};
 
         System.out.println(Arrays.toString(solution17.solution(arr)));
     }
