@@ -6,6 +6,7 @@ class Solution18 {
         if(n == Math.pow(answer, 2)){
             return (long) Math.pow(answer + 1, 2);
         }
+
         return -1;
     }
 
