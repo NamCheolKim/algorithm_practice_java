@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-//정수 내림차순으로 배치하기
+// 프로그래머스 정수 내림차순으로 배치하기
 class Solution16 {
     public long solution(long n) {
         long answer = 0;
