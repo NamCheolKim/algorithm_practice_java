@@ -5,15 +5,15 @@ class Solution27 {
         String[] str = String.valueOf(s).split("");
         int cnt = 0;
 
-        for (String value : str) {
+        for (String i : str) {
             if (cnt % 2 == 0) {
-                answer.append(value.toUpperCase());
+                answer.append(i.toUpperCase());
             } else {
-                answer.append(value.toLowerCase());
+                answer.append(i.toLowerCase());
             }
             cnt++;
 
-            if (value.equals(" ")) {
+            if (i.equals(" ")) {
                 cnt = 0;
             }
         }
