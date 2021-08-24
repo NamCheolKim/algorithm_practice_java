@@ -1,4 +1,4 @@
-// 프로그래머스 두 개 뽑아서 더하기
+// 프로그래머스 내적
 class Solution38 {
     public int solution(int[] a, int[] b) {
         int answer = 0;
